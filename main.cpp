@@ -15,7 +15,6 @@ int main()
     int listening = socket(AF_INET, SOCK_STREAM, 0);
     if (listening == -1)
     {
-        cerr << "Can't create a socket!" << endl;
         return -1;
     }
 
